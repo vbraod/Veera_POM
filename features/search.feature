@@ -1,3 +1,4 @@
+@smoke @regression
 Feature: Google Search for Ducks
   Scenario: Keyword Search in Google for Ducks
     Given User is in Google Search page

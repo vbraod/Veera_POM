@@ -38,6 +38,7 @@ GEM
       watir (~> 6.8)
     page_navigation (0.10)
       data_magic (>= 0.22)
+    rake (13.0.3)
     regexp_parser (1.8.2)
     rspec (3.10.0)
       rspec-core (~> 3.10.0)
@@ -67,6 +68,7 @@ PLATFORMS
 DEPENDENCIES
   cucumber (= 3.1.2)
   page-object (= 2.2.6)
+  rake
   rspec (= 3.10.0)
   watir (= 6.16.5)
 
