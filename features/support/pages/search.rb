@@ -8,15 +8,15 @@ class SearchPage
   button(:searchButton, class: 'gNO89b')
   links(:result_link, class: 'yuRUbf')
 
-  def enterSearchCriteria(criteria)
+  def enter_Search_Criteria(criteria)
     self.searchBox=criteria
   end
 
-  def searchAction()
+  def search_Action()
     self.searchButton
   end
 
-  def verifyResult(result)
+  def verify_Result(result)
     self.text.include?(result)
   end
 

@@ -1,0 +1,21 @@
+Documentation:
+
+Features folder
+- ducks(project folder)
+- step_definitions
+- support
+  - pages
+  - test_data
+    - test_data.yml (contains all the test data)
+  env.rb
+  hooks.rb
+
+Reports folder (each execution creates a html and stored over here)
+
+cucumber.yml (baseparameters with tags)
+
+GemFile (required gems for this project)
+
+Rakefile (default rake task and user defined tasks)
+
+hooks.rb (where before, after and hooks stored)

@@ -3,13 +3,13 @@ Given(/^User is in Google Search page$/) do
 end
 
 When(/^User enter keyword (.*) in search edit box$/) do |arg|
-  on(SearchPage).enterSearchCriteria(arg)
+  on(SearchPage).enter_Search_Criteria(arg)
 end
 
 Then(/^Google provide all the links for (.*)$/) do |arg|
-  on(SearchPage).searchAction
-  fail unless on(SearchPage).verifyResult(arg)
-  if on(SearchPage).verifyResult(arg) then
+  on(SearchPage).search_Action
+  fail unless on(SearchPage).verify_Result(arg)
+  if on(SearchPage).verify_Result(arg) then
     puts "test is pass"
   else
     puts "test is fail"
